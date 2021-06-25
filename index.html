@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Guess the Number</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="Container">
+            <div class='Title'>
+                <h2>Game "guess the number"</h2>
+            </div>
+            <div class='Wrapper'>
+                <span class='InfoText'>
+                    Мы загадали число от 1 до 100<br>
+                    Попробуйте его угадать за 10 ходов или меньше<br>
+                    Мы будем подсказывать, больше или меньше ваше предположение
+                </span>
+                <div class='InputWrapper'>
+                    Введите число:
+                    <input type='number' id='inputGame'>
+                    <input type='button' id='sendButton' value="Отправить">
+                    <div class='ResultGame'>
+                        <p class='Guesses'></p>
+                        <p class='LastResult'></p>
+                        <p class='LowOrHigh'></p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>

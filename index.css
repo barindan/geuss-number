@@ -1,0 +1,19 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title {
+    text-align: center; 
+  }
+  .Wrapper {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+  }
+  .InfoText {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
